@@ -224,7 +224,7 @@ class XlsxToCsvGUI(tk.Tk):
         except Exception as e:
             self.log('예기치 않은 오류: ' + str(e) + '\n' + traceback.format_exc())
 
-
+# 메인 함수 실행
 def main():
     app = XlsxToCsvGUI()
     app.mainloop()
